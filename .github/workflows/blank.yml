@@ -17,10 +17,6 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Debug Azure Login
-        run: |
-          echo '${{ secrets.CLIENTID }}' | jq .
-
       - name: Login to Azure using service principal
         uses: azure/login@v1
         with:
