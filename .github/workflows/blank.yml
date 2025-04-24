@@ -30,3 +30,4 @@ jobs:
             --destination script \
             --source scripts \
             --overwrite
+            --auth-mode login
