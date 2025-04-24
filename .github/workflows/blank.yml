@@ -3,9 +3,9 @@ name: Upload Changed Files to Azure Blob Storage
 on:
   push:
     branches:
-      - '**'
+      - 'main'
     paths:
-      - 'scripts'  # Replace with the folder or files you care about
+      - 'scripts/**'  # Replace with the folder or files you care about
 
 jobs:
   sync-to-azure:
