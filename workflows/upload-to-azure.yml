@@ -1,0 +1,27 @@
+name: Upload Changed Files to Azure Blob Storage
+
+on:
+  push:
+    paths:
+      - 'scripts'  # Replace with the folder or files you care about
+
+jobs:
+  sync-to-azure:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Login to Azure using service principal
+        uses: azure/login@v1
+        with:
+          creds: ${{ secrets.AZURE_CREDENTIALS }}
+
+      - name: Upload files to Azure Blob Storage
+        run: |
+          az storage blob upload-batch \
+            --account-name teststgacct29099 \
+            --destination script \
+            --source scripts \
+            --overwrite
