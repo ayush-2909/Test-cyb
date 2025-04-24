@@ -4,7 +4,7 @@
 powershell.exe -ExecutionPolicy Bypass -NoLogo -NonInteractive -NoProfile -File "C:\scripts\0.provisionOneDriveForUser.ps1"
 #>
 
-Start-Transcript -Path "C:\WindowsAzure\Logs\0.provisionOneDriveForUser.log" -Append
+
 
 #Start-Sleep -Seconds 180
 
