@@ -30,4 +30,4 @@ jobs:
             --destination script \
             --source scripts \
             --overwrite
-            --auth-mode login
+            --sas-token sp=racwdli&st=2025-04-24T21:14:59Z&se=2025-12-31T05:14:59Z&sv=2024-11-04&sr=c&sig=Iwt8BYj9ukn65%2FCaHi9R%2BvtQEi647hDCsvAwvfxL8wQ%3D
