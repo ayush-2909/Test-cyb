@@ -1,4 +1,4 @@
-# THIS SCRIPT WILL RUN ONLY ON WINDOWS POWERSHELL 5.1
+
 
 <#
 powershell.exe -ExecutionPolicy Bypass -NoLogo -NonInteractive -NoProfile -File "C:\scripts\0.provisionOneDriveForUser.ps1"
