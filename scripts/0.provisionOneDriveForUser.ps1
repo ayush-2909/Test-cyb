@@ -5,7 +5,7 @@ powershell.exe -ExecutionPolicy Bypass  -NonInteractive -NoProfile -File "C:\scr
 #>
 
 
-#ttest232222
+#ttest23222222
 
 
 # This is the first script to run in a new ODL. When run manually in a new ODL VM, it asks for NuGet. Let's force install it even if it exists.
