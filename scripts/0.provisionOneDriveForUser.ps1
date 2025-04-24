@@ -1,7 +1,7 @@
 
 
 <#
-powershell.exe -ExecutionPolicy Bypass -NoLogo -NonInteractive -NoProfile -File "C:\scripts\0.provisionOneDriveForUser.ps1"
+powershell.exe -ExecutionPolicy Bypass  -NonInteractive -NoProfile -File "C:\scripts\0.provisionOneDriveForUser.ps1"
 #>
 
 
