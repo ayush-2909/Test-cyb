@@ -17,8 +17,7 @@ jobs:
 
       - name: Debug Azure Login
         run: |
-          echo '${{ secrets.AZURE_CREDENTIALS }}' > creds.json
-          cat creds.json | jq .
+          echo '${{ secrets.AZURE_CREDENTIALS }}' | jq .
 
       - name: Login to Azure using service principal
         uses: azure/login@v1
