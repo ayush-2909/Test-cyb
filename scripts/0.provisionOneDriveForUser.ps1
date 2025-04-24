@@ -6,7 +6,7 @@ powershell.exe -ExecutionPolicy Bypass -NoLogo -NonInteractive -NoProfile -File 
 
 
 
-#Start-Sleep -Seconds 180
+
 
 # This is the first script to run in a new ODL. When run manually in a new ODL VM, it asks for NuGet. Let's force install it even if it exists.
 
